@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="refresh" content="5">
+    <title>forma</title>
+    
+</head>
+<body>  
+                          <!--FORMA-->
+    <form action="data.php" method="get">
+        <fieldset>
+            <legend>Անձնական տվյալներ</legend>
+        <p><label>անուն <input type="text" placeholder="անուն"></label> </p>
+        <p> <input type="text" placeholder="անուն" name="name"> </p>
+        <p> <input type="password" placeholder="գաղտնանուն" name="pass"> </p>
+        </fieldset>
+        <fieldset>
+        <legend>Հացեր</legend>
+                          <!--RADIOKOCHAKNER-->
+        <p>Արդըոք թանկ ժամանակը ձեզ համար</p>
+        <label><input type="radio" name="time" value="yes">այո</label>
+        <label><input type="radio" name="time" value="no">ոչ</label>
+                   <!--ARKXER-->
+        <p> ինչ գործիքներ եք օգտագործում ժամանակը խնայելու համար</p>
+        <label><input type="checkbox" name="alarm">զարթուցիչ</label>
+        <label><input type="checkbox" name="timer">ժամանակաչափ</label>
+        <label><input type="checkbox" name="main">իմ մեթոդները</label>
+                         <!--SELECT-->
+        <p>քանի ժամ եք աշխատում օրվա մեջ </p>
+        <select name="worktime">
+               <option>4</option>
+               <option>8</option>
+               <option>12</option>
+               <option>12+</option>
+        </select>
+    </fieldset>
+                      <!--ստեղծել տեքստային տարածք-->
+        <p>կիսվեք Ձեր մեթոդների մասին ժամանակը խնայելու համար</p> 
+        <p><textarea name="message" cols="30" rows="10" id="text">տեքստ․․․</textarea></p> 
+                             <!--կոճակներ-->
+
+                             <!--մաքրել-->
+        <p>
+            <input type="reset" value="մաքրել">
+                        <!--ուղարկել-->
+            <input type="submit" value="ուղարկել" name="button">
+        </p>
+                        <!--նկար որին սեղմելուց ուղարկել-->
+        <p><input type="image" src="image/button.jpg" name="imgbutton" width="40" alt="նկար"></p>
+
+                          <!--անձնական տվյալների առանձնացում 
+                                  <fieldset>       </fieldset> -ի միջոցով-->
+
+                                    <!--նկար  qartez uxarkel kochak-->
+    </form>
+</body>
+</html>

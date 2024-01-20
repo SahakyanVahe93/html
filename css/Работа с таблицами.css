@@ -1,0 +1,17 @@
+.table {
+    width: 500px;
+    border-collapse: collapse;
+}
+.table td,
+.table th {
+border: 1px solid #c44b4b
+padding: 5px 10px
+}
+.table thead {
+    background-color: #0c3ac6;
+}
+.table tfoot {
+    background-color: #121212;
+    color:aqua
+    text-align: right;
+}
